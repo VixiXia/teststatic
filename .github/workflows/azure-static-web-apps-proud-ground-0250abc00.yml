@@ -3,7 +3,7 @@ name: Azure Static Web Apps CI/CD
 on:
   push:
     branches:
-      - main
+      - test
   pull_request:
     types: [opened, synchronize, reopened, closed]
     branches:
@@ -23,7 +23,7 @@ jobs:
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
         with:
-          azure_static_web_apps_api_token: "afd6547d5a8ebfaaeae15f0fb28bb6dc35907e3193354a2f98c4b3a1f24be5185-d7febd9e-5dd3-4ffa-9378-11a154efb35d000231613"
+          azure_static_web_apps_api_token: "794a4df21da8c683be5a6edfad47fdb53c346ea3d10c35b6d10bbbdcca0e1c205-f7714b4a-09a4-4c51-8221-907f7a5e2907000230839"
           repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for Github integrations (i.e. PR comments)
           action: "upload"
           ###### Repository/Build Configurations - These values can be configured to match your app requirements. ######
@@ -42,5 +42,5 @@ jobs:
         id: closepullrequest
         uses: Azure/static-web-apps-deploy@v1
         with:
-          azure_static_web_apps_api_token: "afd6547d5a8ebfaaeae15f0fb28bb6dc35907e3193354a2f98c4b3a1f24be5185-d7febd9e-5dd3-4ffa-9378-11a154efb35d000231613"
+          azure_static_web_apps_api_token: "794a4df21da8c683be5a6edfad47fdb53c346ea3d10c35b6d10bbbdcca0e1c205-f7714b4a-09a4-4c51-8221-907f7a5e2907000230839"
           action: "close"
