@@ -13,16 +13,16 @@
               "redirect": "/.auth/login/aad?post_login_redirect_uri=https://kind-desert-095841300.5.azurestaticapps.net/.auth/login/aad/callback"
         },
         {
-            "route": "/*",
-            "allowedRoles": [ "authenticated" ]
-        },
-        {
             "route":"/.auth/*",
             "allowedRoles": ["anonymous"]
         },
         {
             "route":"/api/message2",
             "allowedRoles": ["admin"]
+        },
+        {
+            "route": "/*",
+            "allowedRoles": [ "authenticated" ]
         }
     ],
     "responseOverrides": {
