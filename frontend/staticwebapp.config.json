@@ -10,7 +10,7 @@
         },
         {
               "route": "/login",
-              "redirect": "/.auth/login/aad?post_login_redirect_uri=https://proud-ground-0250abc00.5.azurestaticapps.net/.auth/login/aad/callback"
+              "redirect": "/.auth/login/aad?post_login_redirect_uri=https://kind-desert-095841300.5.azurestaticapps.net/.auth/login/aad/callback"
         },
         {
             "route": "/",
@@ -37,7 +37,7 @@
             "azureActiveDirectory": {
                 "userDetailsClaim": "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name",
                 "registration": {
-                    "openIdIssuer": "https://login.microsoftonline.com/c4894239-6dc4-402c-a360-f0ddd7e1311c",
+                    "openIdIssuer": "https://login.microsoftonline.com/ed3c1c81-f3be-495c-8028-f11b7ad6415a",
                     "clientIdSettingName": "ENTRA_CLIENT_ID",
                     "clientSecretSettingName": "ENTRA_CLIENT_SECRET"
                 },
