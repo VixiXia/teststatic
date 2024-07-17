@@ -5,7 +5,7 @@
             "allowedRoles": [ "admin" ]
         },
         {
-            "route": "/*",
+            "route": "/authenticated/*",
             "allowedRoles": [ "authenticated" ]
         },
         {
@@ -13,8 +13,8 @@
               "redirect": "/.auth/login/aad?post_login_redirect_uri=https://kind-desert-095841300.5.azurestaticapps.net/.auth/login/aad/callback"
         },
         {
-            "route": "/",
-            "allowedRoles": [ "anonymous" ]
+            "route": "/*",
+            "allowedRoles": [ "authenticated" ]
         },
         {
             "route":"/.auth/*",
