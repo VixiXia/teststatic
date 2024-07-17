@@ -10,7 +10,7 @@
         },
         {
               "route": "/login",
-              "redirect": "/.auth/login/aad?post_login_redirect_uri=https://kind-desert-095841300.5.azurestaticapps.net/.auth/login/aad/callback"
+              "redirect": "/.auth/login/aad?post_login_redirect_uri=https://salmon-bay-0d64c9800.5.azurestaticapps.net/.auth/login/aad/callback"
         },
         {
             "route":"/.auth/*",
